@@ -11,7 +11,6 @@ router
 .delete(removeComment);
 
 // /api/comments/<pizzaId>/<commentId>/<replyId>
-router
 router.route('/:pizzaId/:commentId/:replyId').delete(removeReply);
 
 
